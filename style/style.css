@@ -1,0 +1,96 @@
+body {
+    background-image: url('https://images2.alphacoders.com/546/546183.jpg');
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.caixa-titulo {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+.caixa-titulo h1 {
+    color: #666;
+    font-size: 30px;
+  }
+  #identificacao {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  #identificacao label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #identificacao input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  #identificacao button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #identificacao button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+#formulario {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-top: 30px;
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    border: none;
+    background-color: #cacaca;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
